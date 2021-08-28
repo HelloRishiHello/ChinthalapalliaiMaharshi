@@ -393,8 +393,8 @@ html:not([data-scroll="0"]) header {
   }
   
   section.intro-section div.container div.intro-image {
-    min-width: 430px;
-    min-height: 430px;
+    min-width: 130px;
+    min-height: 130px;
     margin: 10px 0px;
     position: relative;
     -ms-flex-item-align: center;
@@ -404,14 +404,14 @@ html:not([data-scroll="0"]) header {
   
   @media (max-width: 1079px) {
     section.intro-section div.container div.intro-image {
-      min-width: 330px;
-      min-height: 330px;
+      min-width: 230px;
+      min-height: 230px;
     }
   }
   
   section.intro-section div.container div.intro-image div#border-outer {
-    width: 430px;
-    height: 430px;
+    width: 330px;
+    height: 330px;
     position: absolute;
     top: 50%;
     right: 0px;
@@ -426,8 +426,8 @@ html:not([data-scroll="0"]) header {
   
   @media (max-width: 1079px) {
     section.intro-section div.container div.intro-image div#border-outer {
-      width: 330px;
-      height: 330px;
+      width: 230px;
+      height: 230px;
       left: 50%;
       -webkit-transform: translate(-50%, -50%);
               transform: translate(-50%, -50%);
@@ -435,8 +435,8 @@ html:not([data-scroll="0"]) header {
   }
   
   section.intro-section div.container div.intro-image div#border-inner {
-    height: 350px;
-    width: 350px;
+    height: 250px;
+    width: 250px;
     position: absolute;
     top: 50%;
     right: 40px;
@@ -451,8 +451,8 @@ html:not([data-scroll="0"]) header {
   
   @media (max-width: 1079px) {
     section.intro-section div.container div.intro-image div#border-inner {
-      width: 250px;
-      height: 250px;
+      width: 150px;
+      height: 150px;
       left: 50%;
       -webkit-transform: translate(-50%, -50%);
               transform: translate(-50%, -50%);
@@ -460,8 +460,8 @@ html:not([data-scroll="0"]) header {
   }
   
   section.intro-section div.container div.intro-image img#intro-main-image {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     position: absolute;
     top: 50%;
     right: 65px;
@@ -474,8 +474,8 @@ html:not([data-scroll="0"]) header {
   
   @media (max-width: 1079px) {
     section.intro-section div.container div.intro-image img#intro-main-image {
-      height: 200px;
-      width: 200px;
+      height: 150px;
+      width: 150px;
       top: 50%;
       right: 65px;
       -webkit-transform: translate(0%, -50%);
